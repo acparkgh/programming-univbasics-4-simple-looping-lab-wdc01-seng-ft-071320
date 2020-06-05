@@ -24,4 +24,12 @@ def output_array(array)
   end
 end
 
-def 
+def return_string_array(array)
+  i = 0
+  array_string = []
+  while i < array.length
+    array_string.push(array[i].to_s)
+    i += 1
+  end
+  array_string
+end
